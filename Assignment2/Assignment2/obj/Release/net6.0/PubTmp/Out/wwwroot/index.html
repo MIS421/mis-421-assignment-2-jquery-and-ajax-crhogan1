@@ -1,0 +1,32 @@
+﻿<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha384-Ft/vb48LwsAEtgltj7o+6vtS2esTU9PCpDqcXs4OCVQFZu5BqprHtUCZ4kjK+bpE" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css" integrity="sha384-s5lqL1NMu1TdDS/75EsR2IKqj5g2SbplE63nRqwT70/kcm2uFLqKGOCp1phJ2ENd" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL" crossorigin="anonymous"></script>
+</head>
+
+<body id="background">
+
+    <script type="text/javascript" src="./js/script.js"></script>
+
+    <h1 class="whiteTxt" title="The Super Good Googler" onclick="backgroundChange()">The Super Good Googler</h1>
+    <input type="text" id="query">
+    <br />
+    <button id="search" onclick="clickSearch()">Search</button>
+    <br /><br />
+    <button id="luckyDuck" onclick="luckySearch()">I'm Feeling Lucky<img id="shrinkWink" src="./css/images/wink.png" /></button>
+    <br /><br />
+    <button id="btnTime" onclick="dialog()">Time</button>
+    <div id="searchResults"></div>
+    <div id="time" class=""></div>
+
+
+
+</body>
+
+</html>

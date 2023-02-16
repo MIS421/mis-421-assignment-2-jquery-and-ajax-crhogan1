@@ -1,0 +1,68 @@
+#background {
+    background-image: url(images/backphoto.jpg);
+    background-size: cover;
+}
+
+.whiteTxt{
+    color: ghostwhite;
+}
+
+.searchResults{
+    visibility: hidden;
+}
+
+.time {
+    visibility: hidden;
+}
+
+
+
+h1{
+    font-size: 80px;
+    padding-top: 40px;
+    font-family:'Baskerville Old Face';
+}
+
+body {
+    text-align: center;
+}
+
+input{
+    height: 30px;
+    width: 450px;
+}
+
+#search {
+    height: 40px;
+    width: 200px;
+    font-size: 35px;
+    margin-top: 30px;
+    font-family: 'Baskerville Old Face';
+}
+
+#luckyDuck {
+    height: 40px;
+    width: 300px;
+    font-size: 25px;
+    margin-top: 30px;
+    font-family: 'Baskerville Old Face';
+}
+
+#shrinkWink{
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+#btnTime {
+    background-color: black;
+    border-radius: 70%;
+    float: left;
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    margin-left: 50px;
+    color: white;
+    text-align: center;
+    font-family: 'Baskerville Old Face';
+}
